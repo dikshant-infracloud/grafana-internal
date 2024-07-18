@@ -1,0 +1,26 @@
+{
+    "id": null,
+    "title": "Sample Dashboard",
+    "tags": [],
+    "style": "dark",
+    "timezone": "browser",
+    "editable": true,
+    "panels": [
+      {
+        "title": "Sample Panel",
+        "type": "graph",
+        "gridPos": { "x": 0, "y": 0, "w": 24, "h": 9 },
+        "targets": [
+          {
+            "expr": "up",
+            "interval": "",
+            "legendFormat": "",
+            "refId": "A"
+          }
+        ]
+      }
+    ],
+    "schemaVersion": 26,
+    "version": 1
+  }
+  
