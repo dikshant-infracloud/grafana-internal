@@ -4,22 +4,22 @@
     "tags": [],
     "style": "dark",
     "timezone": "browser",
-    "editable": true,
-    "panels": [
+       "editable": true,
+    "panels":   [
       {
         "title": "Sample Panel",
         "type": "graph",
         "gridPos": { "x": 0, "y": 0, "w": 24, "h": 9 },
-        "targets": [
+        "targets":    [
           {
             "expr": "up",
             "interval": "",
-            "legendFormat": "",
+            "legen  dFormat": "",
             "refId": "A"
           }
         ]
       }
-    ],
+    ]  
     "schemaVersion": 26,
     "version": 1
   }
